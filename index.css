@@ -252,7 +252,7 @@ footer h3{
       margin-top: -20%;
     }
 }
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 720px) {
   html{
     font-size: 70%;
    }
