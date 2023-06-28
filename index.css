@@ -184,14 +184,14 @@ footer h3{
   }
 
 }
-@media (min-width: 501px) and (max-width: 768px){
+@media (min-width: 501px) and (max-width: 720px){
   /* .nv {
     flex-direction: column;
   } */
 
   .nv .nm {
     margin-bottom: 10px;
-    margin-left: 6rem;
+    margin-left: 0rem;
   }
 
   /* .nv .nav_list {
