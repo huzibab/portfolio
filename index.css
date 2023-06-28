@@ -184,7 +184,7 @@ footer h3{
   }
 
 }
-/* @media (min-width: 501px) and (max-width: 720px){
+@media (min-width: 501px) and (max-width: 720px){
   .nv {
     flex-direction: column;
   }
@@ -242,4 +242,4 @@ footer h3{
   footer{
     margin-top:-5rem;
   }
-} */
+}
