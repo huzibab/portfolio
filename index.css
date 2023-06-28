@@ -123,7 +123,7 @@ footer h3{
   display: inline-block;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 365px) {
  html{
   font-size: 50%;
  }
@@ -188,62 +188,68 @@ footer h3{
   }
 
 }
-/* @media (min-width: 501px) and (max-width: 720px){
-  .nv {
-    flex-direction: column;
-  }
-
-  .nv .nm {
-    margin-bottom: 10px;
-    margin-left:5rem;
-  }
-
-  .nv .nav_list {
-    flex-direction: column;
-  }
-
-  .nv .nav_list .anc {
-    margin: 5px 0;
-  }
-  .nv{
-    display: inline-block;
-    margin-left: -2rem;
-    margin-top: 17px;
-  }
-  .nv .nav_list {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-  }
+@media (min-width: 366px) and (max-width: 500px) {
+  html{
+    font-size: 70%;
+   }
+    .nv {
+      flex-direction: column;
+    }
   
-  .nm h3{
-    margin-left: 17.5px;
-  }
-
-  .nv .nav_list .list_items {
-    display: block;
-    margin-left: 14px;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    margin-top: 22px;
-  }
+    .nv .nm {
+      margin-bottom: 10px;
+      margin-left: 7rem;
+    }
   
-  .home{
-    padding-top: 2rem;
-  }
+  
+  
+    .nv .nav_list .anc {
+      margin: 5px 0;
+    }
+    .nv{
+      display: inline-block;
+      margin-left: -2rem;
+      margin-top: 12px;
+    }
+    .nv .nav_list {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+    }
+    
+    .nm h3{
+      margin-left: 12px;
+    }
+  
+    .nv .nav_list .list_items {
+      display: block;
+      margin-left: 14px;
+      /* font-size: 20px; */
+      text-decoration: none;
+      color: white;
+      margin-top: 22px;
+    }
+    
+    .home{
+      padding-top: 0.7rem;
+    }
+  
+    .home .welcome{
+      left: -0px;
+      align-content: center;
+      font-size: 3rem;
+    }
+    .home .intro p{
+      
+      display: inline;
+      text-align: center;
+      font-size: 70%;
+    }
+    .cnt{
+      font-size: 150%;
+    }
+    footer{
+      margin-top: -20%;
+    }
+}
 
-  .home .welcome{
-    left: -0px;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .home .intro p{
-    display: inline-block;
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  footer{
-    margin-top:-5rem;
-  }
-} */
